@@ -1,0 +1,17 @@
+.card{
+    width: 30%;
+    height: 50%;  
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.cardTitulo{
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    background-color:#34495e;
+    font-weight: bold;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16),0 3px 6px rgba(0,0,0,0.23);
+    border-bottom: 10px;
+    border-bottom-color: blue;
+}

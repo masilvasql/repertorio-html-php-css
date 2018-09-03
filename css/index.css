@@ -1,0 +1,34 @@
+.alinhaConteudoInput{
+    margin-top: 3.5%;
+    display: flex;
+    flex-direction: row;
+}
+
+#inputSearch{
+    width: 80%;
+}
+
+#botoes{
+    margin-left: 2%;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.alinhaTitulo{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.titulo{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#tabela{
+    margin-top: 2%;
+}
+
+#btnTabela{
+    margin-right    : 10px;
+}

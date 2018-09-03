@@ -1,0 +1,31 @@
+<!doctype <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="cardTitulo">
+            <label >Insira os dados</label>
+        </div>
+        <div class="card">
+            <form class="container" action="opCliente.php" method="POST">
+                <input name="nomeMusica" class="form-control" placeholder="Nome da Música" required=t rue/>
+                <input name="tomMusica" class="form-control" placeholder="Tom da música" required=t rue/>
+                <input name="autorMusica" class="form-control" placeholder="Autor da Música" required=t rue/>
+                <input type="submit" value="Cadastrar" class="btn btn-primary" />
+            </form>
+        </div>
+    </div>
+    <script src="../bootstrap/jQuery/jquery.min.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
